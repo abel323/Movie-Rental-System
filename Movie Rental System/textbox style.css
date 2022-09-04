@@ -1,0 +1,6 @@
+[type="number"]:hover {
+    border-radius: 15px;
+    border-color: green;
+    font-size: 18px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+}

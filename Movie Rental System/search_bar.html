@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Search Movie</title>
+    <meta name="searchbar" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <style type="text/css">
+        body {
+            background-color: #000000;
+            color: #ffffff;
+            display: inline-flexbox;
+        }
+        
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        form {
+            position: relative;
+            align-self: right;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 align="center">Welcome to movie rental system</h1>
+    <form action="search.php" method="get" target="main" align="right">
+        <label>Enter movie name: </label>
+        <input type="search" name="mName" placeholder="movie name">
+        <input type="submit" value="Search">
+    </form>
+</body>
+
+</html>
